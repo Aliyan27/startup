@@ -1,0 +1,10 @@
+.btn {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  color: #fff !important;
+  background-color: #eb3f57 !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  text-transform: uppercase;
+}

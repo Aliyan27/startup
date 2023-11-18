@@ -1,0 +1,134 @@
+.contactus .container {
+  padding: 70px 0;
+}
+.contactus .container .form {
+  border-radius: 5px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.contactus .container .form .form-body {
+  padding: 62px 20px 30px 42px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.contactus .container .form .form-body h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: capitalize;
+  color: #eb3f57;
+}
+.contactus .container .form .form-body p {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: normal;
+  font-style: normal;
+  color: #67748e;
+}
+.lable-span {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color: #252f40;
+  margin-bottom: 5px;
+}
+.contactus-input {
+  width: 100%;
+  border: 0;
+  padding: 5px 0 5px 10px;
+  box-shadow: inset 0px 0px 8px rgba(120, 120, 171, 0.7);
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #7878ab;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 24px;
+}
+.contact-info {
+  background: url(../Assets/Image.png) top center no-repeat;
+  background-size: cover;
+  width: 40%;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-info img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 4;
+}
+.contact-info-body {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+.contact-info h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  font-style: normal;
+  color: #ffff;
+  margin-bottom: 0;
+}
+.contact-info p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffff;
+  margin-bottom: 0;
+}
+.contact-info p span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffff;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.social-link {
+  display: flex;
+  column-gap: 30px;
+}
+.social-link p {
+  font-size: 24px;
+  cursor: pointer;
+}
+@media (max-width: 769px) {
+  .contactus .container .form .form-body {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .overlay {
+    border-radius: 10px;
+  }
+  .contact-info {
+    width: 100%;
+  }
+  .social-link {
+    margin-bottom: 20px;
+  }
+  .contactus .container {
+    padding: 30px 0;
+  }
+  .contactus .container .form .form-body {
+    padding: 30px;
+  }
+}

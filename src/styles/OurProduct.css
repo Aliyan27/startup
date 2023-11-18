@@ -1,0 +1,68 @@
+.our-product {
+  padding: 20px 0 40px;
+  background-color: #f5f5fa;
+}
+.our-product .container .card-body {
+  padding: 10px 0;
+  border: none;
+}
+.our-product .container .card {
+  border: none;
+  background-color: transparent;
+}
+.our-product .container .card .card-body .card-title {
+  font-size: 27px;
+  line-height: 33px;
+  font-weight: bold;
+  font-style: normal;
+  color: #454654;
+}
+.our-product .container .card .card-body .card-text {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+  color: #454654;
+}
+.link-readmore {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #eb3f57;
+  border-bottom: 1px solid #eb3f57;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.link-readmore:hover {
+  border-bottom: none;
+}
+.our-product .container .card-grid {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.middle-card {
+  margin-top: 100px;
+}
+@media (max-width: 992px) {
+  .middle-card {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 769px) {
+  .our-product .container .card .card-body .card-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .our-product .container .card .card-body .card-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .link-readmore {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

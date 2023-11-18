@@ -1,0 +1,35 @@
+.slide-dev {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+}
+.slide-dev p {
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.slide-dev span {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.comment {
+  padding: 20px 0;
+}
+@media (max-width: 769px) {
+  .slide-dev p {
+    max-width: 60%;
+  }
+}
+.your-component-wrapper {
+  width: 100%;
+
+  margin: auto;
+  overflow: hidden;
+}
