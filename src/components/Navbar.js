@@ -43,7 +43,14 @@ const Navbar = () => {
               >
                 About Us
               </li>
-              <li className="navlink">Services</li>
+              <li
+                className="navlink"
+                onClick={() => {
+                  navigate("/serviceses");
+                }}
+              >
+                Services
+              </li>
               <li className="navlink">Project</li>
               <li>
                 <Button
@@ -77,7 +84,14 @@ const Navbar = () => {
                   >
                     About Us
                   </li>
-                  <li className="navlink">Services</li>
+                  <li
+                    className="navlink"
+                    onClick={() => {
+                      navigate("/serviceses");
+                    }}
+                  >
+                    Services
+                  </li>
                   <li className="navlink">Project</li>
                   <li>
                     <Button
